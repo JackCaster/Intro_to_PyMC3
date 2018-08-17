@@ -1,0 +1,24 @@
+name: intro_to_pymc3
+
+channels:
+ - defaults
+ - conda-forge
+
+dependencies:
+ - python=3.6
+ - mkl-service
+ - cython
+ - PyHamcrest
+ - jupyter
+ - matplotlib
+ - seaborn
+ - scipy 
+ - patsy 
+ - pandas
+ - theano
+ - joblib
+ - tqdm
+ - h5py
+ - python-graphviz
+ - pip:
+   - git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
