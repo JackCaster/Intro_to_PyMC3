@@ -31,8 +31,8 @@ Then, move to the directory created by the clone/zip file:
 
 and install everything using `conda`:
 
-    conda env create -f environment_WIN.yml     # if on Windows 64
-    conda env create -f environment_MAC_OSX.yml # if on Mac
+    conda env create -f environment_windows.yml     # if on Windows 64
+    conda env create -f environment.yml             # if on Mac
     
 This will create an environment called `intro_to_pymc3` that includes the packages required for the tutorial.    
 
