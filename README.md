@@ -1,23 +1,20 @@
 # Introduction to Bayesian statistical modelling with PyMC3
 
 Alberto Morando
-Chalmers University of Technology
+
+_Chalmers University of Technology_
 
 ## Description
 
-This is a beginner-level tutorial to get hands-on experience applying practical Bayesian statistical modeling methods on real data.
+This repository contains a series of tutorial to get hands-on experience applying practical Bayesian statistical modeling methods with PyMC3.
 
-THe beauty of Bayesian statistical modelling is that it is principled. It can be applied generally to a wide variety of problems, from modelling a distribution to generalized linear model with random effects.
-
-## Outline
-
-1. Introduction
+The beauty of Bayesian statistical modelling is that it is principled. It can be applied generally to a wide variety of problems, from modelling a distribution to generalized linear model with random effects. Moreover, the benefit from the _Bayesian approach come not from default implementations, valuable as they can be in practice, but in the active process of model building, checking, and improvement. [...] Under a Bayesian approach, all the tuning parameters are supposed to be interpretable in real-world terms, which implies—or should imply—that improvements in a Bayesian model come from, or supply, improvements in understanding of the underlying problem under studied._ [[ref]](https://www.kdnuggets.com/2016/12/bayesian-basics-explained.html)
 
 ## Software requirements
 
-This tutorial assumes that you are using Python 3.6. I recommend installing the [Miniconda](https://www.continuum.io/downloads) distribution of Python 3, as it allows for the easy automation of package installation and virtual environment creation (see instructions below).
+The notebooks are supposed to be run with Python 3.6. I recommend installing the [Miniconda](https://www.continuum.io/downloads) distribution of Python 3, as it allows for the easy automation of package installation and virtual environment creation (see instructions below).
 
-## Getting the tutorial materials
+## Getting the materials
 
 Clone this repository into a directory of your choice.
 
@@ -40,3 +37,7 @@ To use the environment, you need to activate it by typing:
 
     activate intro_to_pymc3        # Windows
     source activate intro_to_pymc3 # Mac
+
+Finally, fire up jupyter notebook by typing:
+
+    jupyter notebook
