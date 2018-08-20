@@ -6,7 +6,8 @@ This repository contains a series of notebooks to get hands-on experience applyi
 
 The beauty of Bayesian statistical modelling is that it is principled. It can be applied generally to a wide variety of problems, from modelling a distribution to generalized linear model with random effects. Moreover, the benefit from the _Bayesian approach come not from default implementations, valuable as they can be in practice, but in the active process of model building, checking, and improvement. [...] Under a Bayesian approach, all the tuning parameters are supposed to be interpretable in real-world terms, which implies—or should imply—that improvements in a Bayesian model come from, or supply, improvements in understanding of the underlying problem under studied._ [[ref]](https://www.kdnuggets.com/2016/12/bayesian-basics-explained.html)
 
-If prefer not to install the software requirements, you can play around with the notebooks on Binder: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/JackCaster/Intro_to_PyMC3/master). Note, it may take 10/15 min to launch.
+If you prefer not to install the software requirements, you can play around with the notebooks on Binder: 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/JackCaster/Intro_to_PyMC3/master). Note, it may take 10/15 min to launch.
 
 ## Software requirements
 
