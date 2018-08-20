@@ -1,9 +1,5 @@
 # Introduction to Bayesian statistical modelling with PyMC3
 
-Alberto Morando
-
-_Chalmers University of Technology_
-
 ## Description
 
 This repository contains a series of tutorial to get hands-on experience applying practical Bayesian statistical modeling methods with PyMC3.
