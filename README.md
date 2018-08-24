@@ -11,7 +11,7 @@ If you prefer not to install the software requirements, you can play around with
 
 ## Software requirements
 
-The notebooks are supposed to be run with Python 3.6. I recommend installing the [Miniconda](https://www.continuum.io/downloads) distribution of Python 3, as it allows for the easy automation of package installation and virtual environment creation (see instructions below).
+The notebooks are supposed to be run with Python 3.6. I recommend installing the [Miniconda](https://conda.io/miniconda.html) distribution of Python 3, as it allows for the easy automation of package installation and virtual environment creation (see instructions below).
 
 ## Getting the materials
 
