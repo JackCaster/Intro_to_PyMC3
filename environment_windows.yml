@@ -2,26 +2,22 @@ name: intro_to_pymc3
 
 channels:
  - defaults
- - msys2 
- - conda-forge
 
 dependencies:
- - python=3.6
+ - python=3.7
+ - pip
  - libpython
- - m2w64-toolchain
+ - msys2::m2w64-toolchain
+ - numpy
  - mkl-service
- - cython
- - PyHamcrest
  - jupyter
  - matplotlib
  - seaborn
  - scipy 
  - patsy 
  - pandas
- - theano
- - joblib
- - tqdm
- - h5py
- - python-graphviz
+ - conda-forge::python-graphviz
  - pip:
-   - git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
+   - git+https://github.com/pymc-devs/pymc3
+   - git+https://github.com/arviz-devs/arviz.git
+   - git+https://github.com/Theano/Theano.git
