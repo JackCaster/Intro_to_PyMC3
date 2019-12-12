@@ -7,7 +7,7 @@ channels:
 dependencies:
  - python=3.7
  - pip
- - libpython
+#  - libpython
  - numpy
  - mkl-service
  - jupyter
